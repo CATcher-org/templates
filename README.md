@@ -1,13 +1,15 @@
 # Issue Templates
 
-# Bug Reporting Phase
+![](images/workflow.png)
 
-## [App] Collect Bug Reports
+## Bug Reporting Phase
+
+### [App] Collect Bug Reports
 
 Title and body as the tester entered.
 Labels: `severity.*`, `type.*`
 
-## [Script] Tester-Repo → Interim-Repo
+### [Script] Tester-Repo → Interim-Repo
 
 Title:
 ```
@@ -36,7 +38,7 @@ Notes:
 * Check the timestamp. Only bugs reported within the PE period should be transferred. Add a comment to issues falling outside the accepted time window.
   >Bug report not accepted as it was modified outside the time window `{start time}-{end time}`
 
-## [Script] Interim-Repo → Dev-Repo
+### [Script] Interim-Repo → Dev-Repo
 
 Title:
 ```
@@ -54,9 +56,9 @@ Notes:
 * Copy all labels
 
 
-# Dev Response Phase
+## Dev Response Phase
 
-## [App] Collect Dev Response
+### [App] Collect Dev Response
 
 Title: 
 ```
@@ -79,7 +81,7 @@ Duplicate of #81
 
 Labels: `severity.*`, `type.*`, `response.*`, `duplicate`
 
-## [Script] Dev-Repo → Tester-Repo
+### [Script] Dev-Repo → Tester-Repo
 
 Add a comment to the original issue in `tester/repo-name`, in the following format:
 
@@ -137,9 +139,10 @@ Example:
 >
 >-------------------
 
-# Tester Response Phase
 
-## [App] Collect Tester Response
+## Tester Response Phase
+
+### [App] Collect Tester Response
 
 Update the comment. Example:
 
@@ -154,10 +157,9 @@ Update the comment. Example:
 >
 >-------------------
 
-## [Script] Tester-Repo → Tutor-Repo
+### [Script] Tester-Repo → Tutor-Repo
 
 
+## Moderation Phase
 
-# Moderation Phase
-
-## [App] Collect Tutor Response
+### [App] Collect Tutor Response
