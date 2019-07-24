@@ -6,8 +6,8 @@
 
 ### [App] Collect Bug Reports
 
-Title and body as the tester entered.
-Labels: `severity.*`, `type.*`
+* Title and body as the tester entered.
+* Labels: `severity.*`, `type.*` (both compulsory)
 
 ### [Script] Tester-Repo → Interim-Repo
 
@@ -34,7 +34,7 @@ Notes:
 * Copy the `severity.*` label. If no severity label, apply `severity.Low`
 * Copy the `type.*` label.
 * Apply the correct `tutorial.*` label and `team.*` label to indicate the receiving team
-* Need to transfer image files to the new repo too.
+* Transfer image files to the new repo and update the link in the issue body.
 * Check the timestamp. Only bugs reported within the PE period should be transferred. Add a comment to issues falling outside the accepted time window.
   >Bug report not accepted as it was modified outside the time window `{start time}-{end time}`
 
@@ -88,7 +88,7 @@ Add a comment to the original issue in `tester/repo-name`, in the following form
 ```
 # Team's Response
 
-Description of team's response
+{ team's response }
 
 # Items for the Tester to Verify
 ## Type of verification
@@ -159,6 +159,32 @@ Update the comment. Example:
 
 ### [Script] Tester-Repo → Tutor-Repo
 
+Title: same as before
+
+Body:
+```
+# Issue Description
+{original issue description}
+
+# Team's Response
+{team's response}
+
+# Disputes
+
+## {type of verification}
+
+### Team says:
+{team's justification}
+
+### Tester says:
+{tester's objection}
+
+### Tutor moderation
+- [ ] moderated - {type of verification}
+
+**Tutor explanation:**
+[replace this with your reason]
+```
 
 ## Moderation Phase
 
