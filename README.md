@@ -178,11 +178,6 @@ Body:
 ### Tester says:
 {tester's objection}
 
-### Tutor moderation
-- [ ] {type of verification}
-
-**Tutor explanation:**
-[replace this with your reason]
 ```
 
 Example:
@@ -195,14 +190,28 @@ Example:
 >### Tester says:
 >I think it should be medium.
 >Most users are affected.
->### Tutor moderation
->- [ ] Downgrade of severity 
->
->**Tutor explanation:**
->[replace this with your reason]
+
 
 ## Moderation Phase
 
 ### [App] Collect Tutor Response
 
-Update the comment for each dispute i.e., tick and the explanation
+* Show ticks for each dispute
+* Add a comment to record tutor response
+```
+# Tutor Moderation
+
+## {type of verification}
+
+{tutor explanation}
+```
+Example:
+># Tutor moderation
+>## :question: Downgrade of severity 
+>I think it is justified.
+>## :question: Change of type 
+>Not justified. I've changed it back.
+
+* Allow tutor to change other labels
+* Set `status.Done` label if all tasks are done
+* Allow adding an `Unsure` label, in case the tutor is unsure about the decision
