@@ -136,6 +136,10 @@ Example:
 >
 >-------------------
 
+Notes:
+* If the issue is a duplicate, it should inherit seveirty, type, and response from the "original" issue.
+  * Change the labels accordingly
+  * Add the "original" response to the duplicate's response (if any).
 
 ## Tester Response Phase
 
