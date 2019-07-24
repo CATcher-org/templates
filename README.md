@@ -88,7 +88,7 @@ Add a comment to the original issue in `tester/repo-name`, in the following form
 {team's response}
 
 # Items for the Tester to Verify
-## {type of verification}
+## :question: {type of verification}
 
 {description}
 
@@ -105,7 +105,7 @@ Example:
 >
 >Description of team's response
 ># Items for the Tester to Verify
->## Bug not accepted
+>## :question: Bug not accepted
 >
 >Team responded `response.Rejected`
 >
@@ -115,7 +115,7 @@ Example:
 >[replace this with your reason]
 >
 >-------------------
->## Downgrade of severity
+>## :question: Downgrade of severity
 >
 >Changed from `High` to `Low`
 >
@@ -125,7 +125,7 @@ Example:
 >[replace this with your reason]
 >
 >-------------------
->## Change of type
+>## :question: Change of type
 >
 >Changed from `X` to `Y`
 >
@@ -143,7 +143,7 @@ Example:
 
 Update the comment. Example:
 
->## Change of type
+>## :question: Change of type
 >
 >Changed from `X` to `Y`
 >
@@ -166,7 +166,7 @@ Body:
 
 # Disputes
 
-## {type of verification}
+## :question: {type of verification}
 
 ### Team says:
 {team's justification}
@@ -184,7 +184,7 @@ Body:
 Example:
 >...
 ># Disputes
->## Downgrade of severity
+>## :question: Downgrade of severity
 >### Team says:
 >Yes, we missed this.
 >But it's a minor bug.
