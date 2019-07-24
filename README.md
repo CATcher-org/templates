@@ -11,13 +11,11 @@
 
 ### [Script] Tester-Repo → Interim-Repo
 
-Title:
+**Note: issue title remains the same as the original issue, throughout the workflow**
+
+Issue body:
 ```
-{same as original}
-```
-Body:
-```
-{same as original}
+{original issue description}
 
 <hr>
 <sub>[original: username/repo-name#issue-number]</sub>
@@ -40,13 +38,9 @@ Notes:
 
 ### [Script] Interim-Repo → Dev-Repo
 
-Title:
-```
-{same as interim}
-```
 Body:
 ```
-{same as interim}
+{issue description: same as interim}
 
 <hr>
 <sub>[original: module-org/repo-name#issue-number]</sub>
@@ -60,24 +54,27 @@ Notes:
 
 ### [App] Collect Dev Response
 
-Title: 
-```
-{same as interim repo}
-```
-
 Body:
 ```
 {same as interim repo}
 ```
-Comment:
+Add a comment:
 ```
 # Team's Response
 
-{Description entered by the team}
+{team's response}
 
 ## Duplicate status (if any):
-Duplicate of #81
+Duplicate of #{issue-number}
 ```
+Example:
+
+># Team's Response
+>Yes, we missed this.
+>But it's a minor bug.
+>
+>## Duplicate status (if any):
+>Duplicate of #1234
 
 Labels: `severity.*`, `type.*`, `response.*`, `duplicate`
 
@@ -88,12 +85,12 @@ Add a comment to the original issue in `tester/repo-name`, in the following form
 ```
 # Team's Response
 
-{ team's response }
+{team's response}
 
 # Items for the Tester to Verify
-## Type of verification
+## {type of verification}
 
-Description
+{description}
 
 - [ ] I disagree
 
@@ -159,8 +156,6 @@ Update the comment. Example:
 
 ### [Script] Tester-Repo → Tutor-Repo
 
-Title: same as before
-
 Body:
 ```
 # Issue Description
@@ -180,12 +175,30 @@ Body:
 {tester's objection}
 
 ### Tutor moderation
-- [ ] moderated - {type of verification}
+- [ ] {type of verification}
 
 **Tutor explanation:**
 [replace this with your reason]
 ```
 
+Example:
+>...
+># Disputes
+>## Downgrade of severity
+>### Team says:
+>Yes, we missed this.
+>But it's a minor bug.
+>### Tester says:
+>I think it should be medium.
+>Most users are affected.
+>### Tutor moderation
+>- [ ] Downgrade of severity 
+>
+>**Tutor explanation:**
+>[replace this with your reason]
+
 ## Moderation Phase
 
 ### [App] Collect Tutor Response
+
+Update the comment for each dispute i.e., tick and the explanation
