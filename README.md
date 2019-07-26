@@ -105,19 +105,9 @@ Example:
 >
 >Description of team's response
 ># Items for the Tester to Verify
->## :question: Bug not accepted
+>## :question: Issue response
 >
->Team responded `response.Rejected`
->
->- [ ] I disagree
->
->**Reason for disagreement:**
->[replace this with your reason]
->
->-------------------
->## :question: Downgrade of severity
->
->Changed from `High` to `Low`
+>Team chose `Rejected`.
 >
 >- [ ] I disagree
 >
@@ -125,9 +115,23 @@ Example:
 >[replace this with your reason]
 >
 >-------------------
->## :question: Change of type
+>## :question: Issue severity
 >
->Changed from `X` to `Y`
+>Team chose `Low`.
+>
+>Originally `High`.
+>
+>- [ ] I disagree
+>
+>**Reason for disagreement:**
+>[replace this with your reason]
+>
+>-------------------
+>## :question: Issue type
+>
+>Team chose `DocumentationBug`.
+>
+>Originally `FunctionalityBug`.
 >
 >- [ ] I disagree
 >
