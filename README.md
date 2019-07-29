@@ -197,7 +197,7 @@ Example:
 >I think it should be medium.
 >Most users are affected.
 
-* The script will also generate a label based on the number of Disputes (e.g `pending.Two` for issue with two disputes)
+* The script will also generate a label based on the number of Disputes (e.g `pending.2` for issue with two disputes)
 
 ## Moderation Phase
 
