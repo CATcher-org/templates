@@ -195,6 +195,7 @@ Example:
 >I think it should be medium.
 >Most users are affected.
 
+* The script will also generate a label based on the number of Disputes (e.g `pending.2` for issue with 2 disputes)
 
 ## Moderation Phase
 
@@ -217,5 +218,5 @@ Example:
 >Not justified. I've changed it back.
 
 * Allow tutor to change other labels
-* Set `status.Done` label if all tasks are done
+* The `pending.x` label will be removed if all tasks are done
 * Allow adding an `Unsure` label, in case the tutor is unsure about the decision
