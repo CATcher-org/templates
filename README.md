@@ -141,7 +141,7 @@ Example:
 >-------------------
 
 Notes:
-* If the issue is a duplicate, it should inherit seveirty, type, and response from the "original" issue.
+* If the issue is a duplicate, it should inherit severity, type, and response from the "original" issue.
   * Change the labels accordingly
   * Add the "original" response to the duplicate's response (if any).
 
@@ -151,9 +151,11 @@ Notes:
 
 Update the comment. Example:
 
->## :question: Change of type
+>## :question: Issue type
 >
->Changed from `X` to `Y`
+>Team chose `DocumentationBug`.
+>
+>Originally `FunctionalityBug`.
 >
 >- [x] I disagree
 >
