@@ -214,11 +214,11 @@ Example:
 ```
 Example:
 ># Tutor moderation
->## :question: Downgrade of severity 
+>## :question: Issue severity 
 >- [x] Done
 >
 >I think it is justified.
->## :question: Change of type 
+>## :question: Issue type 
 >- [x] Done
 >
 >Not justified. I've changed it back.
