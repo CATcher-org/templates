@@ -189,7 +189,7 @@ Body:
 Example:
 >...
 ># Disputes
->## :question: Downgrade of severity
+>## :question: Issue severity
 >### Team says:
 >Yes, we missed this.
 >But it's a minor bug.
