@@ -31,10 +31,14 @@ Notes:
 * Only open issues are to be transferred.
 * Copy the `severity.*` label. If no severity label, apply `severity.Low`
 * Copy the `type.*` label.
-* Apply the correct `tutorial.*` label and `team.*` label to indicate the receiving team
 * Transfer image files to the new repo and update the link in the issue body.
 * Check the timestamp. Only bugs reported within the PE period should be transferred. Add a comment to issues falling outside the accepted time window.
   >Bug report not accepted as it was modified outside the time window `{start time}-{end time}`
+
+### [Script] In the dry run: Tester-Repo → Team-Repo
+
+* Transfer the bug report to the respective team repo.
+* Labels are to be omitted.
 
 ### [Script] Interim-Repo → Dev-Repo
 
@@ -48,7 +52,7 @@ Body:
 
 Notes:
 * Copy all labels
-
+* Apply the correct `tutorial.*` label and `team.*` label to indicate the receiving team
 
 ## Dev Response Phase
 
