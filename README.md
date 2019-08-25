@@ -4,12 +4,18 @@
 
 ## Bug Reporting Phase
 
+### [Script S0] Check for repo existence
+
+* Check if the required repo exists in each student's GitHub account
+* Email the student if it doesn't exist
+* Email account username/password to be taken as parameters
+
 ### [App] Collect Bug Reports
 
 * Title and body as the tester entered.
 * Labels: `severity.*`, `type.*` (both compulsory)
 
-### [Script] Tester-Repo → Interim-Repo
+### [Script S1a] Tester-Repo → Interim-Repo
 
 **Note: issue title remains the same as the original issue, throughout the workflow**
 
@@ -18,7 +24,7 @@ Issue body:
 {original issue description}
 
 <hr>
-<sub>[original: username/repo-name#issue-number]</sub>
+<sub>[original: username/interim-repo-name#issue-number]</sub>
 ```
 Example:
 
@@ -35,24 +41,27 @@ Notes:
 * Check the timestamp. Only bugs reported within the PE period should be transferred. Add a comment to issues falling outside the accepted time window.
   >Bug report not accepted as it was modified outside the time window `{start time}-{end time}`
 
-### [Script] In the dry run: Tester-Repo → Team-Repo
 
-* Transfer the bug report to the respective team repo.
-* Labels are to be omitted.
-
-### [Script] Interim-Repo → Dev-Repo
+### [Script S1b] Interim-Repo → Dev-Repo
 
 Body:
 ```
 {issue description: same as interim}
 
 <hr>
-<sub>[original: module-org/repo-name#issue-number]</sub>
+<sub>[original: module-org/interim-repo-name#issue-number]</sub>
 ```
 
 Notes:
 * Copy all labels
 * Apply the correct `tutorial.*` label and `team.*` label to indicate the receiving team
+
+
+### [Script S1c] In the dry run: Tester-Repo → Team-Repo
+
+* Transfer the bug report to the respective team repo.
+* Labels are to be omitted.
+
 
 ## Dev Response Phase
 
@@ -82,7 +91,7 @@ Example:
 
 Labels: `severity.*`, `type.*`, `response.*`, `duplicate`
 
-### [Script] Dev-Repo → Tester-Repo
+### [Script S2] Dev-Repo → Tester-Repo
 
 Add a comment to the original issue in `tester/repo-name`, in the following format:
 
@@ -168,7 +177,7 @@ Update the comment. Example:
 >
 >-------------------
 
-### [Script] Tester-Repo → Tutor-Repo
+### [Script S3] Tester-Repo → Tutor-Repo
 
 Body:
 ```
