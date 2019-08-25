@@ -4,7 +4,7 @@
 
 ## Bug Reporting Phase
 
-### [Script S0] Check for repo existence
+### [Script `S0`] Check for repo existence
 
 * Check if the required repo exists in each student's GitHub account
 * Email the student if it doesn't exist
@@ -15,7 +15,7 @@
 * Title and body as the tester entered.
 * Labels: `severity.*`, `type.*` (both compulsory)
 
-### [Script S1a] Tester-Repo → Interim-Repo
+### [Script `S1a`] Tester-Repo → Interim-Repo
 
 **Note: issue title remains the same as the original issue, throughout the workflow**
 
@@ -42,7 +42,7 @@ Notes:
   >Bug report not accepted as it was modified outside the time window `{start time}-{end time}`
 
 
-### [Script S1b] Interim-Repo → Dev-Repo
+### [Script `S1b`] Interim-Repo → Dev-Repo
 
 Body:
 ```
@@ -57,7 +57,7 @@ Notes:
 * Apply the correct `tutorial.*` label and `team.*` label to indicate the receiving team
 
 
-### [Script S1c] In the dry run: Tester-Repo → Team-Repo
+### [Script `S1c`] In the dry run: Tester-Repo → Team-Repo
 
 * Transfer the bug report to the respective team repo.
 * Labels are to be omitted.
@@ -91,7 +91,7 @@ Example:
 
 Labels: `severity.*`, `type.*`, `response.*`, `duplicate`
 
-### [Script S2] Dev-Repo → Tester-Repo
+### [Script `S2`] Dev-Repo → Tester-Repo
 
 Add a comment to the original issue in `tester/repo-name`, in the following format:
 
@@ -177,7 +177,7 @@ Update the comment. Example:
 >
 >-------------------
 
-### [Script S3] Tester-Repo → Tutor-Repo
+### [Script `S3`] Tester-Repo → Tutor-Repo
 
 Body:
 ```
