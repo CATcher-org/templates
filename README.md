@@ -37,7 +37,7 @@ Notes:
 * Only open issues are to be transferred.
 * Copy the `severity.*` label. If no severity label, apply `severity.Low`
 * Copy the `type.*` label.
-* Transfer image files to the new repo and update the link in the issue body.
+* Transfer image files to the settings repo (public) and update the link in the issue body.
 * Check the timestamp. Only bugs reported within the PE period should be transferred. Add a comment to issues falling outside the accepted time window.
   >Bug report not accepted as it was modified outside the time window `{start time}-{end time}`
 
@@ -61,6 +61,7 @@ Notes:
 
 * Transfer the bug report to the respective team repo.
 * Labels are to be omitted.
+* Image links can be kept as they are
 
 
 ## Dev Response Phase
@@ -154,9 +155,9 @@ Example:
 >-------------------
 
 Notes:
-* If the issue is a duplicate, it should inherit severity, type, and response from the "original" issue.
-  * Change the labels accordingly
-  * Add the "original" response to the duplicate's response (if any).
+* If the issue is a duplicate, it should be considered as using severity, type, and response from the "original" issue.
+* If the dev response contains images, they need to be transferred to the settings repo as well
+* How to find the original issue? embed an encrypted string in the issue? Alternatively, can trace back via the interim repo.
 
 ## Tester Response Phase
 
