@@ -211,6 +211,7 @@ Example:
 >I think it should be medium.
 >Most users are affected.
 
+* Labels to be copied from the dev-response repo: `type`, `severity`, `response`, `tutorial`, `team`
 * The script will also generate a label based on the number of Disputes (e.g `pending.2` for issue with two disputes)
 
 ## Moderation Phase
