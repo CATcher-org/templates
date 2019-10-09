@@ -4,12 +4,6 @@
 
 ## Bug Reporting Phase
 
-### [Script `S0`] Check for repo existence
-
-* Check if the required repo exists in each student's GitHub account
-* Email the student if it doesn't exist
-* Email account username/password to be taken as parameters
-
 ### [App] Collect Bug Reports
 
 * Title and body as the tester entered.
