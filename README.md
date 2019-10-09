@@ -193,7 +193,7 @@ Body:
 ## :question: {type of verification}
 
 ### Team says:
-{team's justification}
+{the team's action that is being disputed}
 
 ### Tester says:
 {tester's objection}
@@ -203,10 +203,13 @@ Body:
 Example:
 >...
 ># Disputes
->## :question: Issue severity
+>## :question: Issue type
 >### Team says:
->Yes, we missed this.
->But it's a minor bug.
+>
+>Team chose `DocumentationBug`.
+>
+>Originally `FunctionalityBug`.
+>
 >### Tester says:
 >I think it should be medium.
 >Most users are affected.
