@@ -211,8 +211,8 @@ Example:
 >Originally `FunctionalityBug`.
 >
 >### Tester says:
->I think it should be medium.
->Most users are affected.
+>I think it a functionality bug.
+>The feature doesn't work. It's nothing to do with docs.
 
 * Labels to be copied from the dev-response repo: `type`, `severity`, `response`, `tutorial`, `team`
 * The script will also generate a label based on the number of Disputes (e.g `pending.2` for issue with two disputes)
