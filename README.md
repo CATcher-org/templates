@@ -150,6 +150,7 @@ Example:
 
 Notes:
 * If the issue is a duplicate, it should be considered as using severity, type, and response from the "original" issue.
+* If the `response.*` is missing, add `response.Accepted` to the destination issue (not the source issue).
 * If the dev response contains images, they need to be transferred to the settings repo as well
 * How to find the original issue? embed an encrypted string in the issue? Alternatively, can trace back via the interim repo.
 
