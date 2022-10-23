@@ -91,6 +91,8 @@ Labels: `severity.*`, `type.*`, `response.*`, `duplicate`
 Add a comment to the original issue in `tester/repo-name`, in the following format:
 
 ```
+[IMPORTANT!: Please do not edit or reply to this comment using the GitHub UI. You can respond to it using CATcher during the next phase of the PE]
+
 # Team's Response
 
 {team's response}
@@ -108,7 +110,8 @@ Add a comment to the original issue in `tester/repo-name`, in the following form
 -------------------
 ```
 Example:
-
+>[IMPORTANT!: Please do not edit or reply to this comment using the GitHub UI. You can respond to it using CATcher during the next phase of the PE]
+>
 ># Team's Response
 >
 >Description of team's response
