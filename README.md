@@ -107,7 +107,7 @@ Add a comment to the original issue in `tester/repo-name`, in the following form
 **Reason for disagreement:**
 [replace this with your reason]
 
--------------------
+<catcher-end-of-segment><hr>
 ```
 Example:
 >[IMPORTANT!: Please do not edit or reply to this comment using the GitHub UI. You can respond to it using CATcher during the next phase of the PE]
@@ -125,7 +125,7 @@ Example:
 >**Reason for disagreement:**
 >[replace this with your reason]
 >
->-------------------
+><catcher-end-of-segment><hr>
 >## :question: Issue severity
 >
 >Team chose `Low`.
@@ -137,7 +137,7 @@ Example:
 >**Reason for disagreement:**
 >[replace this with your reason]
 >
->-------------------
+><catcher-end-of-segment><hr>
 >## :question: Issue type
 >
 >Team chose `DocumentationBug`.
@@ -149,7 +149,7 @@ Example:
 >**Reason for disagreement:**
 >[replace this with your reason]
 >
->-------------------
+><catcher-end-of-segment><hr>
 
 Notes:
 * If the issue is a duplicate, it should be considered as using severity, type, and response from the "original" issue.
@@ -174,7 +174,7 @@ Update the comment. Example:
 >**Reason for disagreement:**
 >It's a bug, not a typo.
 >
->-------------------
+><catcher-end-of-segment><hr>
 
 ### [Script `S3`] Tester-Repo → Tutor-Repo
 
