@@ -118,7 +118,7 @@ Example:
 ># Items for the Tester to Verify
 >## :question: Issue response
 >
->Team chose `Rejected`.
+>Team chose [`response.Rejected`].
 >
 >- [ ] I disagree
 >
@@ -128,9 +128,9 @@ Example:
 ><catcher-end-of-segment><hr>
 >## :question: Issue severity
 >
->Team chose `Low`.
+>Team chose [`severity.Low`].
 >
->Originally `High`.
+>Originally [`severity.High`].
 >
 >- [ ] I disagree
 >
@@ -140,9 +140,9 @@ Example:
 ><catcher-end-of-segment><hr>
 >## :question: Issue type
 >
->Team chose `DocumentationBug`.
+>Team chose [`type.DocumentationBug`].
 >
->Originally `FunctionalityBug`.
+>Originally [`type.FunctionalityBug`].
 >
 >- [ ] I disagree
 >
@@ -165,9 +165,9 @@ Update the comment. Example:
 
 >## :question: Issue type
 >
->Team chose `DocumentationBug`.
+>Team chose [`type.DocumentationBug`].
 >
->Originally `FunctionalityBug`.
+>Originally [`type.FunctionalityBug`].
 >
 >- [x] I disagree
 >
@@ -204,9 +204,9 @@ Example:
 >## :question: Issue type
 >### Team says:
 >
->Team chose `DocumentationBug`.
+>Team chose [`type.DocumentationBug`].
 >
->Originally `FunctionalityBug`.
+>Originally [`type.FunctionalityBug`].
 >
 >### Tester says:
 >I think it a functionality bug.
